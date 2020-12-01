@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
+url: "https://alias-son.github.io/"
+# baseurl:  사용하지 말기,, 사용하면 페이지 깨짐
 permalink: pretty
 
 # Pagination

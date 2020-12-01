@@ -6,6 +6,7 @@ categories:
 - Deep Learning
 ---
 
-** 확인해 볼까나?? **
 
+# 확인해 볼까나??
+need eng?
 이게 잘되면 이제는 블로그 시작이다!!

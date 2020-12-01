@@ -1,6 +1,6 @@
 ---
 title: 머신러닝을 만든다면 가능할까? machine Learning
-date: 2013-12-24 23:30:09
+date: 2020-12-01 16:19:09
 categories:
 - Machine Learning
 - Deep Learning

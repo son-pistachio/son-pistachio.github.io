@@ -111,14 +111,3 @@ $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
 will be displayed as
 
 \\[ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} \\]
-
-$$ e^2 $$
-
-
-$ e^2 $
-
-
-$$e^2$$
-
-
-$e^2$

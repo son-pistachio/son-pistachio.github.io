@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Q's Tech blog
+title: Son's Blog
 subtitle:
 description:
-author: Yeongkyu Kim
+author: Son
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -214,10 +214,9 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  GitHub: https://github.com/karl6885
-  Facebook: https://www.facebook.com/yeong.kyu.Q
-  Linkedin: https://www.linkedin.com/in/yeongkyu-kim-494021b1
-
+  GitHub: https://github.com/alias-son
+  # Facebook: https://www.facebook.com/yeong.kyu.Q
+  Linkedin: https://www.linkedin.com/in/alias-son
 
 # Social Links Icons
 # Icon Mapping:
@@ -229,7 +228,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Facebook: facebook-square
+  # Facebook: facebook-square
   Linkedin: linkedin-square
 
 

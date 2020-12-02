@@ -110,9 +110,9 @@
   var CONFIG = {
     root: '{{ site.baseurl }}',
     scheme: '{{ site.scheme }}',
-    sidebar: '{{ site.sidebar | jsonify }}',
-    fancybox: '{{ site.fancybox }}',
-    motion: '{{ site.use_motion }}',
+    sidebar: {{ site.sidebar | jsonify }},
+    fancybox: {{ site.fancybox }},
+    motion: {{ site.use_motion }},
     duoshuo: {
       userId: '{{ site.duoshuo_info.user_id | default: }}',
       author: '{{ site.duoshuo_info.admin_nickname | default: __.author }}'
@@ -121,8 +121,8 @@
       applicationID: '{{ site.algolia.applicationID }}',
       apiKey: '{{ site.algolia.apiKey }}',
       indexName: '{{ site.algolia.indexName }}',
-      hits: '{{ site.algolia_search.hits | jsonify }}',
-      labels: '{{ site.algolia_search.labels | jsonify }}'
+      hits: {{ site.algolia_search.hits | jsonify }},
+      labels: {{ site.algolia_search.labels | jsonify }}
     }
   };
 </script>

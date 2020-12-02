@@ -4,18 +4,18 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Son's Blog
+title: NexT
 subtitle:
 description:
-author: Son
+author: John Doe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: "https://alias-son.github.io/"
-# baseurl:  "/blog"   # 사용하지 말기,, 사용하면 페이지 깨짐
+url:
+baseurl:
 permalink: pretty
 
 # Pagination
@@ -109,7 +109,7 @@ seo: false
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
-index_with_subtitle: true
+index_with_subtitle: false
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -118,11 +118,11 @@ index_with_subtitle: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  about: /about/
-  categories: /categories/
+  #categories: /categories/
+  #about: /about/
   archives: /archives/
   tags: /tags/
-  # sitemap: /sitemap.xml/
+  #sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
@@ -226,9 +226,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  GitHub: https://github.com/alias-son
-  # Twitter: twitter
-  # Weibo: weibo
+  GitHub: github
+  Twitter: twitter
+  Weibo: weibo
 
 
 # Sidebar Avatar
@@ -345,7 +345,7 @@ post_copyright:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: true
+  enabled: false
   image:
 
 
@@ -362,9 +362,12 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML
+
+# Han Support docs: https://hanzi.pro/
+han: false
 
 # Swiftype Search API Key
 #swiftype_key:
@@ -583,7 +586,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: true
+  enable: false
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto

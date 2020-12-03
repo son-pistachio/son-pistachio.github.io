@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Jupyter notebook 설정
 date: 2020-12-03
 categories: Jupyter Notebook

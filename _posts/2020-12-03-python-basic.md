@@ -13,6 +13,7 @@ pd.options.display.max_columns = 999
 pd.options.display.max_rows = 20000  
 ```  
 
+<!--more-->
 
 ## 주피터노트북 입력 셀 사이즈
 

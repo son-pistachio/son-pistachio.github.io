@@ -21,7 +21,7 @@ pd.options.display.max_rows = 20000
 display(HTML("<style>.container { width:100% !important; }</style>"))
 {% endhighlight %}
 
-**width %**를 조절하면 브라우저 내 셀 너비를 조절할 수 있다.  
+**width:100%** 조절하면 주피터노트북 입력 셀 너비를 조절할 수 있다.  
 
 
 ## 주피터노트북 데이터프레임 출력 수

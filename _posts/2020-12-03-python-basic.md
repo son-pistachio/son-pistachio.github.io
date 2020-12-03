@@ -6,12 +6,12 @@ tags: [Python, Jupyter Notebook]
 ---
 
 # 주피터노트북 셀 사이즈 조절하기
-'''python  
+```python  
 from IPython.core.display import display, HTML  
 display(HTML("<style>.container { width:100% !important; }</style>"))  
 pd.options.display.max_columns = 999  
 pd.options.display.max_rows = 20000  
-'''  
+```  
 
 ## 주피터노트북 입력 셀 사이즈
 {% highlight ruby %}

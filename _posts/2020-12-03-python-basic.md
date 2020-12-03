@@ -23,7 +23,7 @@ display(HTML("<style>.container { width:100% !important; }</style>"))
 **width %**를 조절하면 브라우저 내 셀 너비를 조절할 수 있다.  
 
 
-## 주피터노트북 데이터프레임 출력 수 변경  
+## 주피터노트북 데이터프레임 출력 수
 
 {% highlight ruby %}
 pd.options.display.max_columns = 999

@@ -14,14 +14,15 @@ pd.options.display.max_rows = 20000
 ```  
 
 ## 주피터노트북 입력 셀 사이즈
-{% highlight ruby %}
-display(HTML("<style>.container { width:100% !important; }</style>"))  
-{% endhighlight %}  
+
+{% highlight ruby %} 
+display(HTML("<style>.container { width:100% !important; }</style>")) 
+{% endhighlight %} 
 **width %**를 조절하면 브라우저 내 셀 너비를 조절할 수 있다.  
 
-## 주피터노트북 출력 데이터프레임 조절
-{% highlight ruby %}  
-pd.options.display.max_columns = 999  
-pd.options.display.max_rows = 20000  
-{% endhighlight %}  
+## 주피터노트북 출력 데이터프레임 조절  
+{% highlight ruby %} 
+pd.options.display.max_columns = 999 
+pd.options.display.max_rows = 20000 
+{% endhighlight %} 
 데이터프레임 출력 row/column 수를 조절할 수 있다. 

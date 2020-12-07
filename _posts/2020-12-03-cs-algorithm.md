@@ -6,23 +6,17 @@ tags: [algorithm]
 ---
 
 # Brute Force
-
 순차적으로 모두 확인하는 방식
 
 예로, [1, 3], [6, 7] 카드에서 가장 큰 곱의 카드를 구한다면,
-
 1 x 6 = 6
-
 1 x 7 = 7
-
 3 x 6 = 18
-
 3 x 7 = 21
+가장 큰 수는 21이다.
 
-이므로, 가장 큰 수는 21이다.
-
+<!- more ->
  
-
 ```python
 left_cards = [1, 3]
 right_cards = [6, 7]
@@ -32,26 +26,17 @@ for left in left_cards:
             max_product = max(max_product, left * right)
 print(max_product)
 ```
-
- 
-
+  
 Input이 많아지면 경우의 수가 많아지므로, 일반적으로 Brute Force 알고리즘은 비효율적이다.
 
  
-
 `Brute Force 장점`
 
-직관적이고 명확하다
+직관적이고 명확하다  
 답을 확실하게 찾을 수 있다
 
- 
-
-그러므로, 
 
 효율적인 알고리즘의 시작은 Brute Force로 생각해보고 발전시킨다.
-
-
-
 
 
 #  Divide and Conquer

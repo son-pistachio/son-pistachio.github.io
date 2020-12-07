@@ -45,8 +45,6 @@ Divide and Conquer (분할 정복)
 
 큰 문제를 해결하기 위해, 부분 문제로 나누어서 답을 찾아 문제를 해결하는 방식
 
-순서는,
-
 1. `Divide` - 문제를 부분 문제로 나눈다.  
 2. `Conquer` - 각 부분문제를 풀어 답을 도출한다. (부분문제가 어려우면, 부분문제를 쪼개서 Divide & Conquer로 풀어야 한다)  
 3. `Combine` - 부분문제의 솔루션을 합쳐서, 기존문제를 해결한다.
@@ -57,14 +55,14 @@ Divide and Conquer (분할 정복)
 정렬 알고리즘  
 선택정렬(Selection Sort), 삽입정렬(Insertion Sort), 합병정렬(Merge Sort)
 
-**Merge Sort using Divide and Conquer**
-
+**Merge Sort Divide and Conquer**  
 `Divide` - 리스트를 반으로 나눈다.  
 `Conquer` - 왼쪽 리스트와 오른쪽 리스트를 각각 정렬한다.  
 `Combine` - 정렬된 두 리스트를 하나의 정렬된 리스트로 합병한다.
 
 
-Combine 부분에서 좌우의 리스트를 합병할 때, 각 리스트의 가장 왼쪽이 작은 수이므로 대소 비교하면서 하나의 리스트로 합병한다.
+Combine 부분에서 좌우의 리스트를 합병할 때,  
+각 리스트의 가장 왼쪽이 작은 수이므로 대소 비교하면서 하나의 리스트로 합병한다.
 
 
 ### 합병정렬 예시  

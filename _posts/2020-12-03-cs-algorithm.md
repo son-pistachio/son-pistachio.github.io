@@ -1,8 +1,8 @@
 ---
 title: Brute Force, Divide and Conquer
 date: 2020-12-07
-categories: [algorithm]
-tags: [algorithm]
+categories: [Algorithm]
+tags: [Algorithm]
 ---
 
 # Brute Force

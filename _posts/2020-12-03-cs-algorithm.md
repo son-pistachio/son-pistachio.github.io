@@ -6,8 +6,7 @@ tags: [Algorithm]
 ---
 
 # Brute Force
-순차적으로 모두 확인하는 방식
-
+순차적으로 모두 확인하는 방식  
 예로, [1, 3], [6, 7] 카드에서 가장 큰 곱의 카드를 구한다면,  
 1 x 6 = 6  
 1 x 7 = 7  
@@ -136,7 +135,7 @@ pivot ℗ - 정렬을 위한 기준 점
   - **Conquer 단계**
 
     ℗ 4의 양 값이 하나밖에 없어서 이미 정렬된 것이다.  
-    <u>**값이 하나 밖에 없는 이 경우가 base case이다.**</u>  
+    **값이 하나 밖에 없는 이 경우가 base case이다.**  
     숫자 7의 왼쪽 부분은 완벽하게 정리되었다.
 
     
@@ -201,4 +200,4 @@ pivot ℗ - 정렬을 위한 기준 점
 
 
 
-> https://www.codeit.kr/courses/algorithms
+> https://www.codeit.kr/courses/algorithms <코드잇>

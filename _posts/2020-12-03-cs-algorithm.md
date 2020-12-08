@@ -66,7 +66,7 @@ Combine 부분에서 좌우의 리스트를 합병할 때,
 [16, 11, 6, 13, 1, 7, 10, 4]<br/>
 
 - **Divide 단계**  
-  [16, 11, 6, 13] &nbsp;&nbsp;| &nbsp;&nbsp;[1, 7, 10, 4]  
+  [16, 11, 6, 13] &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [1, 7, 10, 4]  
   리스트를 반으로 나눈다.  
   `Conquer단계`에서는 나누어진 리스트를 각각 정리해주어야 하지만,  
   리스트 길이가 길어, 재귀적으로 다시 `Divide and conquer` 실행<br/>
@@ -75,13 +75,13 @@ Combine 부분에서 좌우의 리스트를 합병할 때,
   왼쪽 리스트부터 다시 `Divide and conquer`
 
   - **Divide 단계**  
-    [16, 11] | [6, 13]  
+    [16, 11] &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [6, 13]  
     리스트를 반으로 나누어 준다.  
     이번에도 리스트가 충분히 작지 않아서 다시 `Divide and conquer` 실행<br/>
 
     왼쪽 리스트 [16, 11] `Divide and conquer`  
     - **Divide 단계**  
-      [16] | [11]  
+      [16] &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [11]  
       리스트를 반으로 나누어 준다.<br/> 
 
     - **Conquer 단계**  
@@ -95,7 +95,7 @@ Combine 부분에서 좌우의 리스트를 합병할 때,
 
     오른쪽 리스트 [6, 13] `Divide and conquer`  
     - **Divide 단계**  
-      [6] | [13]  
+      [6] &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [13]  
       리스트를 반으로 나누어 준다.<br/> 
 
     - **Conquer 단계**  
@@ -127,7 +127,7 @@ Combine 부분에서 좌우의 리스트를 합병할 때,
   `정복`<br/>
 
 - **Combine 단계**  
-   [6, 11, 13, 16] | [1, 4, 7, 10]  
+   [6, 11, 13, 16] &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; [1, 4, 7, 10]  
   마지막으로, 두 리스트를 작은 순서대로 합쳐 주면 된다.  
   [1, 4, 6, 7, 10, 11, 13 ,16]<br/>
 
@@ -225,4 +225,4 @@ pivot ℗ - 정렬을 위한 기준 점<br/>
 
 
 
-> https://www.codeit.kr/courses/algorithms <코드잇>
+> https://www.codeit.kr/courses/algorithms &nbsp;&nbsp;&nbsp;&nbsp; <코드잇>

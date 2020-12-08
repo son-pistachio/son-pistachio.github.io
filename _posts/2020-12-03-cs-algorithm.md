@@ -66,7 +66,7 @@ Combine 부분에서 좌우의 리스트를 합병할 때,
 [16, 11, 6, 13, 1, 7, 10, 4]<br/>
 
 - **Divide 단계**  
-  [16, 11, 6, 13] &nbsp;| &nbsp;[1, 7, 10, 4]  
+  [16, 11, 6, 13] &nbsp;&nbsp;| &nbsp;&nbsp;[1, 7, 10, 4]  
   리스트를 반으로 나눈다.  
   `Conquer단계`에서는 나누어진 리스트를 각각 정리해주어야 하지만,  
   리스트 길이가 길어, 재귀적으로 다시 `Divide and conquer` 실행<br/>
@@ -225,4 +225,4 @@ pivot ℗ - 정렬을 위한 기준 점<br/>
 
 
 
-> https://www.codeit.kr/courses/algorithms
+> https://www.codeit.kr/courses/algorithms <코드잇>

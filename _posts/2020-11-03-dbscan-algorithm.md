@@ -10,7 +10,7 @@ tags: [Machine Learning, Clustering, Unsupervised Learning]
 - Data Point(D.P)가 얼마나 짧은지로 군집  
 - a density-based clustering non-parametric algorithm<br/>
 
-<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/dbscan_img_1.png?raw=true" width="800px" align="center"><br/>
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/dbscan_img_1.png?raw=true" width="700px" align="center"><br/>
 
 ### **거리측정**  
 - Euclidean(유클리디안)  

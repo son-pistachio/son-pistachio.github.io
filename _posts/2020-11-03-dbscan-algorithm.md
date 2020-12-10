@@ -19,7 +19,7 @@ tags: [Machine Learning, Clustering, Unsupervised Learning]
 
 코사인유사도를 사용하려면, 방향만 보기 때문에 거리를 모두 1로 만들어 같게 해준다.
 
-유닛벡터를 만든다. $ \frac{|v|}{v} $ 이용 => 표준화가 중요 Z~(0,1)
+유닛벡터를 만든다. $ \frac{\|v/|}{v} $ 이용 => 표준화가 중요 Z~(0,1)
 
 ### **Main concepts**  
 사용자 parameter

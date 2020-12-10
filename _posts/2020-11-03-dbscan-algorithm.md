@@ -40,7 +40,8 @@ reachable points가 아닌 모든 points는 outliers이다.
 
 - p(core point)가 자신에게 속할 수 있는 모든 포인트와 군집을 형성한다.
 - 각 군집에는 하나 이상의 core point가 존재한다.
-- non core points는 군집 일부가 될 수 있지만, 더 많은 point를 군집하는 데 사용할 수 없으므로 `edge`를 형성한다. (edge : 군집의 외각을 표현)
+- non core points는 군집 일부가 될 수 있지만, 더 많은 point를 군집하는 데 사용할 수 없으므로 `edge`를 형성한다.
+  (edge : 군집의 외각을 표현)
 
 
 > 이상엽교수님 머신러닝 강의 중 @ Yonsei Univ.

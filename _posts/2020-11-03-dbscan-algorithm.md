@@ -44,4 +44,4 @@ reachable points가 아닌 모든 points는 outliers이다.
   (edge : 군집의 외각을 표현)
 <br/><br/>
 
-> 이상엽교수님 머신러닝 강의 중 @ Yonsei Univ.
+> 이상엽교수님  강의 중 @ Yonsei Univ.

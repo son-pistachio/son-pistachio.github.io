@@ -1,6 +1,6 @@
 ---
 title: Jupyter notebook 설정
-date: 2020-12-03
+date: 2020-11-11
 categories: [Jupyter Notebook]
 tags: [Python, Jupyter Notebook]
 ---

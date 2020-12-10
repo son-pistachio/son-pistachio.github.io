@@ -12,7 +12,7 @@ tags: [Machine Learning, Clustering, Unsupervised Learning]
 
 ![](https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/dbscan_img_1.png?raw=true)<br/>
 
-<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/dbscan_img_1.png?raw=true" width="400px"><br/>
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/dbscan_img_1.png?raw=true" width="60px"><br/>
 
 ### **거리측정**  
 - Euclidean(유클리디안)  

@@ -42,4 +42,4 @@ Data Point는 3가지로 분류
   (edge : 군집의 외각을 표현)
 <br/><br/>
 
-> 이상엽교수님  강의 중 @ Yonsei Univ.
+> 이상엽교수님 기계학습 강의 @ Yonsei Univ.

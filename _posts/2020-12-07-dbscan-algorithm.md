@@ -75,10 +75,9 @@ core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
 ```
 
-클러스터링 수, 노이즈 수 -  Number of clusters in labels, ignoring noise if present.  
 ```python
-n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
-n_noise_ = list(labels).count(-1)
+n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)  # 클러스터링 수
+n_noise_ = list(labels).count(-1)  # 노이즈 수
 ```
 
 #### Plot

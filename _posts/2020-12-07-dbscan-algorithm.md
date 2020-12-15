@@ -44,7 +44,7 @@ Data Point는 3가지로 분류
 
 > 이상엽교수님 기계학습 강의 @ Yonsei Univ.
 
-<br/><br/><br/>
+<br/><br/>
 
 ### **예제**  
 

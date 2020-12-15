@@ -109,4 +109,4 @@ plt.show()
 
 > https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
 > https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_blobs.html
-> https://datascienceschool.net/03%20machine%20learning/09.02%20%EB%B6%84%EB%A5%98%EC%9A%A9%20%EA%B0%80%EC%83%81%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%83%9D%EC%84%B1.html#make-blobs
+> t.ly/TUzQ

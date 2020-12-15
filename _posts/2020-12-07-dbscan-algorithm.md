@@ -46,8 +46,9 @@ Data Point는 3가지로 분류
 
 
 ### **예제**  
+
+#### 샘플데이터 만들기 Generate sample data  
 ```python
-# 샘플데이터 만들기 Generate sample data
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
 from sklearn.preprocessing import StandardScaler
@@ -65,8 +66,8 @@ plt.show()
 <img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_0_0.png?raw=true" width="700px" align="center"><br/>
 
 
+#### DBSCAN 사용 - Compute DBSCAN  
 ```python
-# DBSCAN사용 - Compute DBSCAN
 from sklearn.cluster import DBSCAN
 db = DBSCAN(eps=0.3, min_samples=10).fit(X)
 core_samples_mask = np.zeros_like(db.labels_, dtype=bool)
@@ -74,16 +75,14 @@ core_samples_mask[db.core_sample_indices_] = True
 labels = db.labels_
 ```
 
-
+클러스터링 수, 노이즈 수 -  Number of clusters in labels, ignoring noise if present.  
 ```python
-# 클러스터링 수, 노이즈 수 -  Number of clusters in labels, ignoring noise if present.
 n_clusters_ = len(set(labels)) - (1 if -1 in labels else 0)
 n_noise_ = list(labels).count(-1)
 ```
 
-
+#### Plot
 ```python
-# Plot result
 unique_labels = set(labels)
 colors = [plt.cm.Spectral(each)
           for each in np.linspace(0, 1, len(unique_labels))]

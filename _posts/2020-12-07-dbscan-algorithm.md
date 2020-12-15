@@ -44,7 +44,7 @@ Data Point는 3가지로 분류
 
 > 이상엽교수님 기계학습 강의 @ Yonsei Univ.
 
-<br/><br/>
+<br/>
 
 ### **예제**  
 
@@ -107,6 +107,6 @@ plt.show()
 
 <img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_3_0.png?raw=true" width="500px" align="center"><br/>
 
-> https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html
+> https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html  
 > https://scikit-learn.org/stable/modules/generated/sklearn.datasets.make_blobs.html  
 > t.ly/TUzQ

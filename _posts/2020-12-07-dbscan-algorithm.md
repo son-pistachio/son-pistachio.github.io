@@ -105,3 +105,5 @@ plt.show()
 ```
 
 <img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_3_0.png?raw=true" width="500px" align="center"><br/>
+
+> https://scikit-learn.org/stable/modules/generated/sklearn.cluster.DBSCAN.html

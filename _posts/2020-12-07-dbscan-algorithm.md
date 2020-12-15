@@ -42,8 +42,8 @@ Data Point는 3가지로 분류
   (edge : 군집의 외각을 표현)
 <br/><br/>
 
-> 이상엽교수님 기계학습 강의 @ Yonsei Univ.<br/><br/><br/>
-
+> 이상엽교수님 기계학습 강의 @ Yonsei Univ.
+<br/><br/><br/>
 
 ### **예제**  
 
@@ -63,7 +63,7 @@ plt.scatter(X[:, 0], X[:, 1], marker='o', c=labels_true, s=100, edgecolor="k", l
 plt.show()
 ```
 
-<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_0_0.png?raw=true" width="700px" align="center"><br/>
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_0_0.png?raw=true" width="500px" align="center"><br/>
 
 
 #### DBSCAN 사용 - Compute DBSCAN  
@@ -105,4 +105,4 @@ plt.title('Estimated number of clusters: %d' % n_clusters_)
 plt.show()
 ```
 
-<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_3_0.png?raw=true" width="700px" align="center"><br/>
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/DBSCAN/output_3_0.png?raw=true" width="500px" align="center"><br/>

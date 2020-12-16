@@ -13,8 +13,8 @@ Building......
 필수적인 요소 중심으로 작성
 
 ### TensorFlow 2  패키지
--   `tensorflow`  - CPU와  GPU 지원이 포함된 안정적인 최신 출시
--   `tf-nightly`  - 미리보기 빌드
+- `tensorflow`  - CPU와  GPU 지원이 포함된 안정적인 최신 출시
+- `tf-nightly`  - 미리보기 빌드
 
 ### 요구사항
 - Python 3.5 ~ 3.8
@@ -52,7 +52,7 @@ C:\) python -m venv --system-site-packages .\venv
 
 #### Conda용
 ```
-C:\)  conda install -c anaconda tensorflow
+C:\) conda install -c anaconda tensorflow
 ```
 
 ### TensorFlow pip 패키지 설치

@@ -56,7 +56,7 @@ C:\)  conda install -c anaconda tensorflow
 ```
 
 ### TensorFlow pip 패키지 설치
-- 가상 환경 설치
+가상 환경 설치
 ```
 (venv) $ pip install --upgrade tensorflow
 ```
@@ -65,6 +65,6 @@ C:\)  conda install -c anaconda tensorflow
 (venv) $ python -c "import tensorflow as tf;print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
 ```
 
-시스템 설치는 따로 확인!
+*시스템 설치는 따로 확인!*
 
 > https://www.tensorflow.org/install/pip?hl=ko#system-install

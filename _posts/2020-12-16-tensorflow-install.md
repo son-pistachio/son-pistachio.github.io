@@ -1,6 +1,6 @@
 ---
 title: Tensorflow 2 설치 방법
-date: 2020-11-07
+date: 2020-12-16
 categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow]
 ---

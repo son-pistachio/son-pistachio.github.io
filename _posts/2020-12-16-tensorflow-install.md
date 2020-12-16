@@ -27,7 +27,7 @@ pip --version 혹은 pip3 --version
 ```
 
 ### 가상 환경 만들기(권장)
-**Windows용**  
+#### Windows용
 1. Python 인터프리터를 선택하고 저장할  `.\venv`  디렉터리를 만들어 새로운 가상 환경을 만든다.  
 **중간과 맨 뒤의 venv 원하는 이름으로 작성**  
 ```
@@ -50,7 +50,7 @@ C:\) python -m venv --system-site-packages .\venv
 (venv) C:\) deactivate
 ```
 
-**Conda용**  
+#### Conda용
 ```
 C:\)  conda install -c anaconda tensorflow
 ```

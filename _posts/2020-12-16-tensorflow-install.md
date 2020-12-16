@@ -31,28 +31,28 @@ pip --version 혹은 pip3 --version
 1. Python 인터프리터를 선택하고 저장할  `.\venv`  디렉터리를 만들어 새로운 가상 환경을 만든다.  
 **중간과 맨 뒤의 venv 원하는 이름으로 작성**  
 ```
-C:\> python -m venv --system-site-packages .\venv
+C:\) python -m venv --system-site-packages .\venv
 ```
 
 2. 가상 환경을 활성화
 ```
-(venv) C:\> .\venv\Scripts\activate
+(venv) C:\) .\venv\Scripts\activate
 ```
 
 3. 가상 환경 내에 패키지를 설치 및 `pip` 업그레이드
 ```
-(venv) C:\> pip install --upgrade pip
-(venv) C:\> pip list # 가상환경 내 설치된 패키지 확인
+(venv) C:\) pip install --upgrade pip
+(venv) C:\) pip list # 가상환경 내 설치된 패키지 확인
 ```
 
 4. 가상 환경 종료
 ```
-(venv) C:\> deactivate
+(venv) C:\) deactivate
 ```
 
 **Conda용**  
 ```
-C:\> conda install -c anaconda tensorflow
+C:\)  conda install -c anaconda tensorflow
 ```
 
 ### TensorFlow pip 패키지 설치

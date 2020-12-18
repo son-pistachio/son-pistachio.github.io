@@ -71,11 +71,11 @@ C:\) conda install -c anaconda tensorflow
 - 프로젝트 별로 폴더 관리 가능
 - 모든 라이브러리를 다시 설치해야 하는 단점
 
-1. 관리하는 위치에 폴더 생성 ( 여기에서는 C: )
-	C:\tf_env
+1. 관리하는 위치에 폴더 생성 ( 여기에서는 C: )  
+	C:\tf_env  
 	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/1.png?raw=true"  width="600px" border="3" align="center"><br/>
 
-2. 찾기 ⇒ cmd (command, 명령 프롬프트) 실행
+2. 찾기 ⇒ cmd (command, 명령 프롬프트) 실행  
 	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/2.png?raw=true" width="600px" align="center"><br/>
 
 3. ipykernel (python 3.x)을 사용하여 새로운 환경 생성

@@ -96,13 +96,13 @@ C:\) conda install -c anaconda tensorflow
 	```  
 
 6. tf 환경에 필요한 라이브러리 설치
-	`conda install pandas`
-	`conda install scipy`
-	`conda install matplotlib`
-	`conda install seaborn`
-	`conda install scikit-learn`
-	`conda install tensorflow`
-	`conda install keras`
+	`conda install pandas`  
+	`conda install scipy`  
+	`conda install matplotlib`  
+	`conda install seaborn`  
+	`conda install scikit-learn`  
+	`conda install tensorflow`  
+	`conda install keras`  
 	**`conda install notebook ipykernel`**
 
 7. jupyter notebook 실행

@@ -73,10 +73,10 @@ C:\) conda install -c anaconda tensorflow
 
 1. 관리하는 위치에 폴더 생성 ( 여기에서는 C: )  
 	C:\tf_env  
-	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/1.png?raw=true"  width="500px" border="3" align="center"><br/>
+	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/1.png?raw=true"  width="100px" border="3" align="center"><br/>
 
 2. 찾기 ⇒ cmd (command, 명령 프롬프트) 실행  
-	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/2.png?raw=true" width="500px" align="center"><br/>
+	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/2.png?raw=true" width="100px" align="center"><br/>
 
 3. ipykernel (python 3.x)을 사용하여 새로운 환경 생성
 	```

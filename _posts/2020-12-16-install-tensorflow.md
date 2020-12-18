@@ -73,41 +73,41 @@ C:\) conda install -c anaconda tensorflow
 - 모든 라이브러리를 다시 설치해야 하는 단점
 
 ### 관리할 위치에 폴더 생성 ( 여기에서는 C: )  
-	C:\tf_env  
-	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/1.png?raw=true"  width="200px" border="50" align="center"><br/>
+C:\tf_env  
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/1.png?raw=true"  width="200px" border="50" align="center"><br/>
 
 ### 찾기 ⇒ cmd (command, 명령 프롬프트) 실행  
-	<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/2.png?raw=true" width="300px" align="center"><br/>
+<img src = "https://github.com/alias-son/alias-son.github.io/blob/main/assets/images/posts/Install_tensorflow/2.png?raw=true" width="300px" align="center"><br/>
 
 ### ipykernel (python 3.x)을 사용하여 새로운 환경 생성
-	```
-	C:\) conda create –n tf python=3.7 ipykernel
-	```
-	`tf`는 사용할 환경이름으로 설정
+```
+C:\) conda create –n tf python=3.7 ipykernel
+```
+`tf`는 사용할 환경이름으로 설정
 
 ### tf 환경 활성화
-	```
-	C:\) activate tf
-	```
+```
+C:\) activate tf
+```
 
 ### Workspace 생성
-	- 1번에서 생성한 tf_env 폴더로 이동 후, tf 환경에 패키지 설치
-	```  
-	(tf) C:\) cd c:\tf_env
-	```  
+- 1번에서 생성한 tf_env 폴더로 이동 후, tf 환경에 패키지 설치  
+```  
+(tf) C:\) cd c:\tf_env
+```  
 
-### tf 환경에 필요한 라이브러리 설치
-	`conda install pandas`  
-	`conda install scipy`  
-	`conda install matplotlib`  
-	`conda install seaborn`  
-	`conda install scikit-learn`  
-	`conda install tensorflow`  
-	`conda install keras`  
-	**`conda install notebook ipykernel`**
+### tf 환경에 필요한 라이브러리 설치  
+`conda install pandas`  
+`conda install scipy`  
+`conda install matplotlib`  
+`conda install seaborn`  
+`conda install scikit-learn`  
+`conda install tensorflow`  
+`conda install keras`  
+**`conda install notebook ipykernel`**  
 
-### jupyter notebook 실행
-	```
-	(tf) C:\) jupyter notebook
-	```
+### jupyter notebook 실행  
+```
+(tf) C:\) jupyter notebook
+```
 	

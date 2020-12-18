@@ -5,7 +5,7 @@ categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow]
 ---
 
-**TensorFlow 설치**  
+## **TensorFlow 설치**  
 공식 홈페이지에 따른 안정적인 Tensorflow 설치 ( for Windows )  
 필수적인 요소 중심으로 작성
 

@@ -64,3 +64,4 @@ C:\) conda install -c anaconda tensorflow
 *시스템 설치는 따로 확인!*
 
 > https://www.tensorflow.org/install/pip?hl=ko#system-install
+

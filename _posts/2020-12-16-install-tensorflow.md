@@ -24,8 +24,10 @@ pip --version 혹은 pip3 --version
 ```
 
 ### 가상 환경 만들기(권장)
+
 #### Windows 용
-1. Python 인터프리터를 선택하고 저장할  `.\venv`  디렉터리를 만들어 새로운 가상 환경을 만든다.    
+
+1. Python 인터프리터를 선택하고 저장할  `.\venv`  디렉터리를 만들어 새로운 가상 환경을 만든다.
 ```
 C:\) python -m venv --system-site-packages .\venv
 ```
@@ -92,9 +94,9 @@ C:\) activate tf
 
 ### Workspace 생성
 - 1번에서 생성한 tf_env 폴더로 이동 후, tf 환경에 패키지 설치  
-```  
+```
 (tf) C:\) cd c:\tf_env
-```  
+```
 
 ### tf 환경에 필요한 라이브러리 설치  
 `conda install pandas`  
@@ -104,10 +106,9 @@ C:\) activate tf
 `conda install scikit-learn`  
 `conda install tensorflow`  
 `conda install keras`  
-**`conda install notebook ipykernel`**  
+`**conda install notebook ipykernel**`
 
-### jupyter notebook 실행  
+### jupyter notebook 실행
 ```
 (tf) C:\) jupyter notebook
 ```
-	

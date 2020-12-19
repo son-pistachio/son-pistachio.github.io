@@ -5,8 +5,10 @@ categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow]
 ---
 
-## **TensorFlow 설치**  
-공식 홈페이지에 따른 안정적인 Tensorflow 설치 ( for Windows )  
+# **TensorFlow 설치**  
+( for Windows )
+
+## 공식 홈페이지에 따른 설치 방법   
 필수적인 요소 중심으로 작성
 
 ### TensorFlow 2  패키지

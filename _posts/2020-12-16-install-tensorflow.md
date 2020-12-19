@@ -2,7 +2,7 @@
 title: Tensorflow 2 설치 방법
 date: 2020-12-16
 categories: [Deep Learning]
-tags: [Deep Learning, Tensorflow]
+tags: [Deep Learning, Tensorflow, Keras]
 ---
 
 ## 공식 홈페이지에 따른 설치 방법 ( for Windows )

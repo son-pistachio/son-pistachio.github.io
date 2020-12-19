@@ -92,7 +92,7 @@ C:\) activate tf
 ```
 
 ### Workspace 생성
-- 1번에서 생성한 tf_env 폴더로 이동 후, tf 환경에 패키지 설치  
+- 위에서 생성한 tf_env 폴더로 이동 후, tf 환경에 패키지 설치  
 ```
 (tf) C:\) cd c:\tf_env
 ```

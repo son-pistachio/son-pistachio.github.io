@@ -224,6 +224,4 @@ pivot ℗ - 정렬을 위한 기준 점<br/>
   
   
 
-
-
 > https://www.codeit.kr/courses/algorithms &nbsp;&nbsp;&nbsp;&nbsp; <코드잇>

@@ -106,6 +106,7 @@ C:\) activate tf
 `conda install tensorflow`  
 `conda install keras`  
 **`conda install notebook ipykernel`**
+...
 
 ### jupyter notebook 실행
 ```

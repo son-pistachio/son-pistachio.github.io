@@ -1,11 +1,11 @@
 ---
-title: Tensorflow In Practice Course 1-1
+title: DeepLearning.AI TensorFlow Developer Course 1-1
 date: 2020-12-18
 categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow, Keras, Coursera]
 ---
 
-**[Coursera] Tensorflow In Practice 강의 정리**
+**[Coursera] DeepLearning.AI TensorFlow Developer ( Tensorflow In Practice ) 강의 정리**
 **Course 1 : Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning**  
 Course 2 : Convolutional Neural Networks in TensorFlow  
 Course 3 : Natural Language Processing in TensorFlow  

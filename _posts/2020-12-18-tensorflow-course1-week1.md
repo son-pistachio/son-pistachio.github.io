@@ -1,5 +1,5 @@
 ---
-title: Tensorflow In Practice Course 1
+title: Tensorflow In Practice Course 1-1
 date: 2020-12-18
 categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow, Keras, Coursera]

@@ -12,6 +12,7 @@ Course 2 : Convolutional Neural Networks in TensorFlow
 Course 3 : Natural Language Processing in TensorFlow  
 Course 4 : Sequences, Time Series and Prediction
 
+
 ## Week 1 정리
 
 ### The ‘Hello World’ of neural networks

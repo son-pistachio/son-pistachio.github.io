@@ -33,12 +33,12 @@ model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
 Keras 사용하면, 신경망을 쉽게 정의 할 수 있다.  
 신경망은 기본적으로 패턴을 배울 수 있는 기능
 
-두 가지 함수 역할. loss func. and optimizer
+Loss Function, optimizer 함수 역할
 ```python
 model.compile(optimizer='sgd', loss='mean_squared_error')
 ```
-Loss Function은 값을 측정한 후 Optimizer에 데이터를 제공하여 다음 예측 값을 알아낸다. 
-Optimizer는 Loss Func.의 데이터를 사용하여 예측이 얼마나 잘 수행되었는지 또는 잘못 수행되었는지에 대해 측정한다.  
+Loss Function은 값을 측정한 후 Optimizer에 데이터를 제공하여 다음 예측 값을 알아낸다.  
+Optimizer는 Loss Function 데이터를 사용하여 예측이 얼마나 잘 수행되었는지 또는 잘못 수행되었는지를 측정한다.  
 `loss='mean_squared_error'`, `optimizer='sgd'`  
 sgd(stochastic gradient descent)
 
@@ -58,12 +58,14 @@ fit 명령어로 학습 진행.
 ```python
 print(model.predict([10.0]))
 ```
-모델이 학습을 마치면, 예측 방법을 사용하여 값을 출력  
+모델이 학습을 마치면, 예측 값을 출력  
 숫자 10이 예측모델을 통과 할 때,  Y = 2X - 1으로 19를 반환 할 것이라고 생각한다.  
 그러나 19에 매우 가깝지만 정확히 19가 아닌 값을 반환한다.
 
 이유는  
 - 아주 적은 데이터를 사용하여 훈련했다는 것이다. 위 6개의 점은 선형이지만 모든 X에 대해 관계가 Y = 2X - 1과 같을 것이라는 보장은 없다. X = 10이면, Y가 19와 같을 확률이 매우 높지만 신경망은 정확한 수는 아니다.
 - 신경망이 답을 알아 내려고 할 때 확률로 처리한다.
+
+
 <br/><br/>
 > https://www.coursera.org/professional-certificates/tensorflow-in-practice

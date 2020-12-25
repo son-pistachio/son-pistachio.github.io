@@ -74,5 +74,6 @@ print(model.predict([10.0]))
 - 신경망이 답을 알아 내려고 할 때 확률로 처리한다.
 
 
+
 <br/>
 > https://www.coursera.org/professional-certificates/tensorflow-in-practice

@@ -41,18 +41,19 @@ mnist = keras.datasets.fashion_mnist
 총 70,000개 이미지
 train - 60,000개
 test - 10,000개
-|레이블|클래스  |
-|:--:|:--:|
-| 0 |T-shirt/top|
-| 1 |Trouser|
-| 2 |Pullover|
-| 3 |Dress|
-| 4 |Coat|
-| 5 |Sandal|
-| 6 |Shirt|
-| 7 |Sneaker|
-| 8 |Bag|
-| 9 |Ankle boot|
+|레이블|클래스|  
+|:--:|:--:|  
+| 0 |T-shirt/top|  
+| 1 |Trouser|  
+| 2 |Pullover|  
+| 3 |Dress|  
+| 4 |Coat|  
+| 5 |Sandal|  
+| 6 |Shirt|  
+| 7 |Sneaker|  
+| 8 |Bag|  
+| 9 |Ankle boot|  
+
 > https://www.tensorflow.org/tutorials/keras/classification
 
 

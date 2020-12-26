@@ -58,7 +58,7 @@ test - 10,000개
 
 > https://www.tensorflow.org/tutorials/keras/classification
 
-</br>
+<br/>
 ### Coding a Computer Vision Neural Network
 CNN 모델링 준비
 ```python

@@ -19,7 +19,8 @@ Course 3 : Natural Language Processing in TensorFlow
 Course 4 : Sequences, Time Series and Prediction
 
 ---
-## Week 2 - Introduction to Computer Vision
+
+**Week 2 - Introduction to Computer Vision**
 
 ### An Introduction to computer vision
 

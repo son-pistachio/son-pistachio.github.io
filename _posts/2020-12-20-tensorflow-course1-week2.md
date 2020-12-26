@@ -57,6 +57,8 @@ test - 10,000개
 
 
 ### Coding a Computer Vision Neural Network
+
+CNN 모델링 준비
 ```python
 model = tf.keras.models.Sequential([
 		tf.keras.layers.Flatten(input_shape=(28, 28)),

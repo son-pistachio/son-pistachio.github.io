@@ -39,9 +39,9 @@ Fashion MNIST dataset
 mnist = keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 ```
-총 70,000개 이미지
-train - 60,000개
-test - 10,000개
+총 70,000개 이미지  
+train - 60,000개  
+test - 10,000개  
 
 | 레이블 | 클래스 |
 | :--: | :--: |
@@ -71,10 +71,10 @@ model = tf.keras.models.Sequential([
 ```
 
 첫번째 레이어  
-`tf.keras.layers.Flatten(input_shape=(28, 28))`
+`tf.keras.layers.Flatten(input_shape=(28, 28))`  
 이미지가 28 x 28이므로, input shape는 28x28 flatten layer이다.
 
-마지막 레이어
+마지막 레이어  
 10개 뉴런이 있는 이유는 데이터 셋에 10가지 종류 의류가 있기 때문이다.
 
 
@@ -91,8 +91,8 @@ Callback은 사용자가 지정한 시점에서 학습을 취소 할 수 있다.
 예를 들어, 학습 중 Loss가 0.4미만이면 학습을 취소한다.
 
 ```python
-class  myCallback(tf.keras.callbacks.Callback):
-	def  on_epoch_end(self, epoch, logs={}):
+class myCallback(tf.keras.callbacks.Callback):
+	def on_epoch_end(self, epoch, logs={}):
 		if(logs.get('loss')<0.4):
 			print("\nLoss is low so cancelling training!")
 			self.model.stop_training = True

@@ -86,7 +86,6 @@ x_train, x_test = x_train / 255.0, x_test / 255.0
 ---
 ### Using Callbacks to control training
 Callback은 사용자가 지정한 시점에서 학습을 취소 할 수 있다.  
-예를 들어, 학습 중 Loss가 0.4미만이면 학습을 취소한다.
 
 ```python
 class myCallback(tf.keras.callbacks.Callback):
@@ -95,8 +94,9 @@ class myCallback(tf.keras.callbacks.Callback):
 			print("\nLoss is low so cancelling training!")
 			self.model.stop_training = True
 ```
+예를 들어, 학습 중 Loss가 0.4미만이면 학습을 취소한다.
 
-***
+---
 ### Walk through a notebook with Callbacks
 전체 코드
 ```python

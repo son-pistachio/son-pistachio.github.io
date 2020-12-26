@@ -76,7 +76,7 @@ model = tf.keras.models.Sequential([
 마지막 레이어  
 10개 뉴런이 있는 이유는 데이터 셋에 10가지 종류 의류가 있기 때문이다.
 
-<br/<
+<br/>
 ### Walk through a Notebook for computer vision
 이미지는 0 ~ 255 사이 값으로 표현된다.  
 모든 값을 0 ~ 1 변경하기 위해 255로 나눈다.
@@ -84,7 +84,7 @@ model = tf.keras.models.Sequential([
 (x_train, y_train),(x_test, y_test) = mnist.load_data()
 x_train, x_test = x_train / 255.0, x_test / 255.0
 ```
-+++
+---
 ### Using Callbacks to control training
 Callback은 사용자가 지정한 시점에서 학습을 취소 할 수 있다.  
 예를 들어, 학습 중 Loss가 0.4미만이면 학습을 취소한다.
@@ -97,6 +97,7 @@ class myCallback(tf.keras.callbacks.Callback):
 			self.model.stop_training = True
 ```
 
+<br/>
 ### Walk through a notebook with Callbacks
 전체 코드
 ```python

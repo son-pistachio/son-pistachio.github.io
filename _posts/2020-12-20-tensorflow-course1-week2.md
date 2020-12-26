@@ -1,5 +1,5 @@
 ---
-title: DeepLearning.AI TensorFlow Developer Course 1-1
+title: DeepLearning.AI TensorFlow Developer Course 1-2
 date: 2020-12-20
 categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow, Keras, Coursera]
@@ -42,6 +42,13 @@ mnist = keras.datasets.fashion_mnist
 총 70,000개 이미지
 train - 60,000개
 test - 10,000개
+
+| Table Header 1 | Table Header 2 | Table Header 3 |
+| --- | --- | --- |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+| Division 1 | Division 2 | Division 3 |
+
 | 레이블 | 클래스 |
 | :--: | :--: |
 | 0 | T-shirt/top |

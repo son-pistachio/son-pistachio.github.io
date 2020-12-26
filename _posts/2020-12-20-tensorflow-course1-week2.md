@@ -25,11 +25,11 @@ Course 4 : Sequences, Time Series and Prediction
 ### An Introduction to computer vision
 
 Fashion MNIST dataset
-- 70k Images
+- 70k Images  
 70,000개 이미지
-- 10 Categories
+- 10 Categories  
 10가지 의류
-- Images are 28x28
+- Images are 28x28  
 28 x 28 픽셀 : 각 픽셀은 0 - 255 표현
 - Can train a neural net!
 
@@ -79,7 +79,7 @@ model = tf.keras.models.Sequential([
 
 
 ### Walk through a Notebook for computer vision
-이미지는 0 ~ 255 사이 값으로 표현된다.
+이미지는 0 ~ 255 사이 값으로 표현된다.  
 모든 값을 0 ~ 1 변경하기 위해 255로 나눈다.
 ```python
 (x_train, y_train),(x_test, y_test) = mnist.load_data()

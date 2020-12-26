@@ -17,7 +17,7 @@ Course 3 : Natural Language Processing in TensorFlow
 Course 4 : Sequences, Time Series and Prediction
 
 ---
-## Week 1 - A New Programming Paradigm
+**Week 1 - A New Programming Paradigm**
 
 ### The ‘Hello World’ of neural networks
 X = -1, 0, 1, 2, 3, 4  

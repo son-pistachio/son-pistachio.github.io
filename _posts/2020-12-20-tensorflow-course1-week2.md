@@ -43,12 +43,6 @@ mnist = keras.datasets.fashion_mnist
 train - 60,000개
 test - 10,000개
 
-| Table Header 1 | Table Header 2 | Table Header 3 |
-| --- | --- | --- |
-| Division 1 | Division 2 | Division 3 |
-| Division 1 | Division 2 | Division 3 |
-| Division 1 | Division 2 | Division 3 |
-
 | 레이블 | 클래스 |
 | :--: | :--: |
 | 0 | T-shirt/top |

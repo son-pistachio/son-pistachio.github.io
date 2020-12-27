@@ -37,9 +37,9 @@ Fashion MNIST dataset
 mnist = keras.datasets.fashion_mnist
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
 ```
-총 70,000개 이미지  
-train - 60,000개  
-test - 10,000개  
+- 총 70,000개 이미지  
+- train - 60,000개  
+- test - 10,000개  
 
 | 레이블 | 클래스 |
 | :--: | :--: |

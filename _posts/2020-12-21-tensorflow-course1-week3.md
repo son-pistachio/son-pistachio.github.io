@@ -52,10 +52,10 @@ tf.keras.layers.Dense(10, activation=tf.nn.softmax)
 ])
 ```
 
-convolutional layer 사용하는 모델
-마지막 세 줄은 기존 모델과 동일 
-`tf.keras.layers.Flatten()`
-`tf.keras.layers.Dense(128, activation='relu')`
+convolutional layer 사용하는 모델  
+마지막 세 줄은 기존 모델과 동일  
+`tf.keras.layers.Flatten()`  
+`tf.keras.layers.Dense(128, activation='relu')`  
 `tf.keras.layers.Dense(10, activation='softmax')`
 
 ```python
@@ -71,8 +71,8 @@ tf.keras.layers.Dense(10, activation='softmax')
 ```
 `tf.keras.layers.Conv2D(64, (3, 3), activation='relu', input_shape=(28,28,1))`  
 첫 번째 convolution 지정.  
-karas에  64개 필터 생성을 요청
-필터는 3 x 3이고, actiovation은 relu, 입력형태는 28 x 28이다.
+karas에 64개 필터 생성을 요청  
+필터는 3 x 3이고, actiovation은 relu, 입력형태는 28 x 28이다.  
 추가한 1은 색 깊이를 의미한다.
 
 ---
@@ -90,7 +90,7 @@ tf.keras.layers.Dense(10, activation='softmax')
 
 model.summary()
 ```
-`tf.keras.layers.MaxPooling2D(2, 2)` 2 x 2 pooling layer
+`tf.keras.layers.MaxPooling2D(2, 2)` 2 x 2 pooling layer  
 4 픽셀마다 가장 큰 수를 사용
 
 `model.summary()` : 모델의 레이어 검사하고 합성곱을 통해 이동 경로 확인  
@@ -128,7 +128,7 @@ maxpooling에 의해 이미지가 축소
 ---
 ### Improving the Fashion classifier with convolutions
 
-`filter` - 이미지 전달하여 정보의 양을 줄이고, neural network가 한 종류의 이미지를 다른 종류와 구별할 수 있는 특징을 효과적으로 추출  
+`filter` - 이미지 전달하여 정보의 양을 줄이고, neural network가 한 종류의 이미지를 다른 종류와 구별할 수 있는 특징 추출  
 `pooling` - 정보를 더 쉽게 관리하기 위해 압축하는 방법
 
 <br/>

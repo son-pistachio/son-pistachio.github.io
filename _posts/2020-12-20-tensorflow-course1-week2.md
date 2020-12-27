@@ -126,3 +126,6 @@ model.fit(x_train, y_train, epochs=10, callbacks=[callbacks])
 ```
 
 **callbacks 사용보다는 끝까지 기다리는 것을 추천!**
+
+<br/>
+> https://www.coursera.org/professional-certificates/tensorflow-in-practice

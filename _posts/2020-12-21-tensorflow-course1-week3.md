@@ -18,10 +18,10 @@ Course 4 : Sequences, Time Series and Prediction
 
 ---  
 
-Week 3 - Enhancing Vision with Convolutional Neural Networks**
+**Week 3 - Enhancing Vision with Convolutional Neural Networks**
 
-fashion mnist 데이터로 이어서 강의 진행
-기존 모델 코드 확인
+fashion mnist 데이터로 이어서 강의 진행  
+앞서 사용한 기존 모델 코드
 ```python
 import numpy as np
 import tensorflow as tf
@@ -42,9 +42,8 @@ metrics=['accuracy'])
 model.fit(x_train, y_train, epochs=10)
 ```
 
----
 ### Implementing convolutional layers
-앞에서 사용한 기존 모델
+기존 모델
 ```python
 model = tf.keras.models.Sequential([
 tf.keras.layers.Flatten(),

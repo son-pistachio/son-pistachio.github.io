@@ -95,7 +95,7 @@ model.summary()
 
 `model.summary()` : 모델의 레이어 검사하고 합성곱을 통해 이동 경로 확인  
 Output :  
-```
+{% highlight ruby %}
 Model: "sequential_3"
 _________________________________________________________________ 
 Layer (type)                  Output Shape          Param # 
@@ -118,7 +118,7 @@ Total params: 243,786
 Trainable params: 243,786 
 Non-trainable params: 0 
 _________________________________________________________________
-```
+{% endhighlight %}
 
 처음 26, 26은 필터가 3 x 3으로 모서리 부분은 지날 수 없으므로, x와 y의 픽셀을 하나씩 제거.  
 maxpooling에 의해 이미지가 축소  

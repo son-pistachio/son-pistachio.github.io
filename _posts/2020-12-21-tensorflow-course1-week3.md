@@ -70,9 +70,8 @@ tf.keras.layers.Dense(10, activation='softmax')
 ])
 ```
 `tf.keras.layers.Conv2D(64, (3, 3), activation='relu', input_shape=(28,28,1))`  
-첫 번째 convolution 지정.  
-karas에 64개 필터 생성을 요청  
-필터는 3 x 3이고, actiovation은 relu, 입력형태는 28 x 28이다.  
+첫 번째 convolution 지정  
+karas에 64개 필터 생성을 요청 - 필터는 3 x 3이고, actiovation은 relu, 입력형태는 28 x 28이다.  
 추가한 1은 색 깊이를 의미한다.
 
 ---
@@ -120,9 +119,9 @@ Non-trainable params: 0
 _________________________________________________________________
 {% endhighlight %}
 
-처음 26, 26은 필터가 3 x 3으로 모서리 부분은 지날 수 없으므로, x와 y의 픽셀을 하나씩 제거.  
+처음 26, 26은 필터가 3 x 3으로 모서리 부분은 지날 수 없으므로, x와 y의 픽셀을 하나씩 제거  
 maxpooling에 의해 이미지가 축소  
-다음 conv layer 역시 x와 y 한 픽셀씩 제거  
+다음 convolutional layer도 x와 y 한 픽셀씩 제거  
 마지막 maxpooling을 거치면, 5x5의 64개 이미지 형성
 
 ---

@@ -95,7 +95,7 @@ model.summary()
 
 `model.summary()` : 모델의 레이어 검사하고 합성곱을 통해 이동 경로 확인  
 Output :  
-{% highlight ruby %}
+{% highlight python %}
 Model: "sequential_3"
 _________________________________________________________________ 
 Layer (type)                  Output Shape          Param # 

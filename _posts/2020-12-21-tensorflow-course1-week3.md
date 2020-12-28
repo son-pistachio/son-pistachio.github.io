@@ -89,7 +89,7 @@ tf.keras.layers.Dense(10, activation='softmax')
 
 model.summary()
 ```
-`tf.keras.layers.MaxPooling2D(2, 2)` 2 x 2 pooling layer  
+`tf.keras.layers.MaxPooling2D(2, 2)` 2 x 2 maxpooling layer  
 4 픽셀마다 가장 큰 수를 사용
 
 `model.summary()` : 모델의 레이어 검사하고 합성곱을 통해 이동 경로 확인  

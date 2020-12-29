@@ -98,9 +98,9 @@ history = model.fit_generator(
       verbose=2)			
 ```
 `train_generator`&nbsp;&nbsp; - &nbsp;위의 train_generator 호출  
-`steps_per_epoch=8`&nbsp;&nbsp;	- &nbsp;train image 1024개. 1024/8로 한 번에 128개 처리  
+`steps_per_epoch=8`&nbsp;&nbsp;	- &nbsp;train image 1024개. &nbsp;&nbsp;1024/8로 한 번에 128개 처리  
 `validation_data=validation_generator`&nbsp;&nbsp; -&nbsp; validation 호출  
-`validation_steps=8`&nbsp;&nbsp; - &nbsp;test image 256개. 256/8로 한 번에 32개 처리  
+`validation_steps=8`&nbsp;&nbsp; - &nbsp;test image 256개. &nbsp;&nbsp;256/8로 한 번에 32개 처리  
 `verbose=2`&nbsp;&nbsp; -&nbsp; 진행사항 시각화 정도
 
 전체코드

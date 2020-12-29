@@ -74,11 +74,9 @@ model = tf.keras.models.Sequential([
 세 개의 convolution, pooling layers 사용  
 세 개의 convolution과 pooling layers는 이미지의 높은 복잡성과 크기를 반영  
 `input_shape=(300, 300, 3)`&nbsp; - 300 x 300 사이즈와 컬러이미지(빨간색, 초록색, 파란색)  
-
 `tf.keras.layers.Dense(1, activation='sigmoid')`&nbsp; - sigmoid는 0 or 1이므로, 1로 출력  
 
 ### Training the ConvNet with fit_generator
-
 ```python
 from tensorflow.keras.optimizers import RMSprop
 model.compile(loss='binary_crossentropy',
@@ -89,7 +87,7 @@ model.compile(loss='binary_crossentropy',
 `optimizer=RMSprop(lr=0.001)`&nbsp; - Learning Rate 조절
 
 
-이미지 생성은 `model.fit()` 아닌 `model.fit_generator()` 사용   
+이미지 생성은 `model.fit()` 아닌 `model.fit_generator()` 사용 
 ```python
 history = model.fit_generator(
       train_generator,		
@@ -99,12 +97,11 @@ history = model.fit_generator(
       validation_steps=8,
       verbose=2)			
 ```
-`train_generator`&nbsp; - 위의 train_generator 호출
-`steps_per_epoch=8`&nbsp;	- train image 1024개. 1024/8로 한 번에 128개 처리
-`validation_data=validation_generator`&nbsp; - validation 호출
-`validation_steps=8`&nbsp; - test image 256개. 256/8로 한 번에 32개 처리
+`train_generator`&nbsp; - 위의 train_generator 호출  
+`steps_per_epoch=8`&nbsp;	- train image 1024개. 1024/8로 한 번에 128개 처리  
+`validation_data=validation_generator`&nbsp; - validation 호출  
+`validation_steps=8`&nbsp; - test image 256개. 256/8로 한 번에 32개 처리  
 `verbose=2`&nbsp; - 진행사항 시각화 정도
-
 
 전체코드
 ```python

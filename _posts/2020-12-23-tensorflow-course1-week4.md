@@ -38,9 +38,9 @@ train_generator = train_datagen.flow_from_directory(
     class_mode='binary')  
 ```
 상위 디렉토리 위치를 설정해야 함  
-`train_dir`&nbsp; - train 이미지가 포함 된 하위 디렉토리  
-`target_size=(150, 150)`&nbsp; - # 이미지 사이즈 조정  
-`class_mode='binary'`&nbsp; - # 이진분류
+`train_dir`&nbsp;&nbsp; - &nbsp;train 이미지가 포함 된 하위 디렉토리  
+`target_size=(150, 150)`&nbsp;&nbsp; - &nbsp;이미지 사이즈 조정  
+`class_mode='binary'`&nbsp;&nbsp; - &nbsp;이진분류
 
 
 validation 폴더
@@ -53,7 +53,7 @@ validation_generator = test_datagen.flow_from_directory(
     batch_size=10,
     class_mode='binary')  # 이진분류
 ```
-`validation_dir`&nbsp; - test 이미지가 포함 된 하위 디렉토리
+`validation_dir`&nbsp;&nbsp; - &nbsp;test 이미지가 포함 된 하위 디렉토리
 
 
 ### Defining a ConvNet to use complex images
@@ -73,8 +73,8 @@ model = tf.keras.models.Sequential([
 ```
 세 개의 convolution, pooling layers 사용  
 세 개의 convolution과 pooling layers는 이미지의 높은 복잡성과 크기를 반영  
-`input_shape=(300, 300, 3)`&nbsp; - 300 x 300 사이즈와 컬러이미지(빨간색, 초록색, 파란색)  
-`tf.keras.layers.Dense(1, activation='sigmoid')`&nbsp; - sigmoid는 0 or 1이므로, 1로 출력  
+`input_shape=(300, 300, 3)`&nbsp;&nbsp; - &nbsp;300 x 300 사이즈와 컬러이미지(빨간색, 초록색, 파란색)  
+`tf.keras.layers.Dense(1, activation='sigmoid')`&nbsp;&nbsp; - &nbsp;sigmoid는 0 or 1이므로, 1로 출력  
 
 ### Training the ConvNet with fit_generator
 ```python
@@ -83,8 +83,8 @@ model.compile(loss='binary_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['acc'])
 ```
-`loss='binary_crossentropy'`&nbsp; - 사람/말 이진분류로 binary_crossentropy 선택  
-`optimizer=RMSprop(lr=0.001)`&nbsp; - Learning Rate 조절
+`loss='binary_crossentropy'`&nbsp;&nbsp; - &nbsp;사람/말 이진분류로 binary_crossentropy 선택  
+`optimizer=RMSprop(lr=0.001)`&nbsp;&nbsp; - &nbsp;Learning Rate 조절
 
 
 이미지 생성은 `model.fit()` 아닌 `model.fit_generator()` 사용 
@@ -97,11 +97,11 @@ history = model.fit_generator(
       validation_steps=8,
       verbose=2)			
 ```
-`train_generator`&nbsp; - 위의 train_generator 호출  
-`steps_per_epoch=8`&nbsp;	- train image 1024개. 1024/8로 한 번에 128개 처리  
-`validation_data=validation_generator`&nbsp; - validation 호출  
-`validation_steps=8`&nbsp; - test image 256개. 256/8로 한 번에 32개 처리  
-`verbose=2`&nbsp; - 진행사항 시각화 정도
+`train_generator`&nbsp;&nbsp; - &nbsp;위의 train_generator 호출  
+`steps_per_epoch=8`&nbsp;&nbsp;	- &nbsp;train image 1024개. 1024/8로 한 번에 128개 처리  
+`validation_data=validation_generator`&nbsp;&nbsp; -&nbsp; validation 호출  
+`validation_steps=8`&nbsp;&nbsp; - &nbsp;test image 256개. 256/8로 한 번에 32개 처리  
+`verbose=2`&nbsp;&nbsp; -&nbsp; 진행사항 시각화 정도
 
 전체코드
 ```python

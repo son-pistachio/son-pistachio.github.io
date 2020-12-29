@@ -82,7 +82,7 @@ model.compile(loss='binary_crossentropy',
               optimizer=RMSprop(lr=0.001),
               metrics=['acc'])
 ```
-`loss='binary_crossentropy'`&nbsp;&nbsp; - &nbsp;사람/말 이진분류로 binary_crossentropy 선택  
+`loss='binary_crossentropy'`&nbsp;&nbsp; - &nbsp;사람 / 말 이진분류로 binary_crossentropy 선택  
 `optimizer=RMSprop(lr=0.001)`&nbsp;&nbsp; - &nbsp;Learning Rate 조절
 
 

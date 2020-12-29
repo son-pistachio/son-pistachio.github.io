@@ -71,8 +71,7 @@ model = tf.keras.models.Sequential([
    tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 ```
-세 개의 convolution, pooling layers 사용  
-세 개의 convolution과 pooling layers는 이미지의 높은 복잡성과 크기를 반영  
+이전 강의보다 이미지 복잡성과 크기를 반영하여, 세 개 convolutional, pooling layers 사용  
 `input_shape=(300, 300, 3)`&nbsp;&nbsp; - &nbsp;300 x 300 사이즈와 컬러이미지(빨간색, 초록색, 파란색)  
 `tf.keras.layers.Dense(1, activation='sigmoid')`&nbsp;&nbsp; - &nbsp;sigmoid는 0 or 1이므로, 1로 출력  
 

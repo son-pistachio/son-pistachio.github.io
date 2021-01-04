@@ -5,8 +5,10 @@ categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow, Keras, Coursera]
 ---
 
+Building...
+
 **[Coursera] DeepLearning.AI TensorFlow Developer ( Tensorflow In Practice ) 강의 정리**  
-Course 1 : Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+Course 1 : Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning  
 **Course 2 : Convolutional Neural Networks in TensorFlow**  
 
 - **Week 1 - Exploring a Larger Dataset**
@@ -18,9 +20,6 @@ Course 3 : Natural Language Processing in TensorFlow
 Course 4 : Sequences, Time Series and Prediction
 
 ---  
-
-Building...
-
 
 ### Training with the cats vs. dogs dataset
 
@@ -39,7 +38,7 @@ train_generator = train_datagen.flow_from_directory(
         class_mode='binary',
         )     
 ```
-`ImageDataGenerator(rescale = 1.0/255.)`&nbsp;&nbsp; - &nbsp;이미지 정규화
+`ImageDataGenerator(rescale = 1.0/255.)`&nbsp;&nbsp; - &nbsp;이미지 정규화  
 `train_dir`&nbsp;&nbsp; - &nbsp;train 이미지가 포함 된 하위 디렉토리  
 `target_size=(150, 150)`&nbsp;&nbsp; - &nbsp;이미지 사이즈 조정  
 `class_mode='binary'`&nbsp;&nbsp; - &nbsp;이진분류

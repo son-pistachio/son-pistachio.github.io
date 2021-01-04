@@ -8,7 +8,6 @@ tags: [Deep Learning, Tensorflow, Keras, Coursera]
 Building...
 
 **[Coursera] DeepLearning.AI TensorFlow Developer ( Tensorflow In Practice ) 강의 정리**  
-
 Course 1 : Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning  
 **Course 2 : Convolutional Neural Networks in TensorFlow**  
 

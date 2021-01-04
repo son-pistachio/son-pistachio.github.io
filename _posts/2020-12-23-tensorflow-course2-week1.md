@@ -1,6 +1,6 @@
 ---
-title: DeepLearning.AI TensorFlow Developer Course 1-3
-date: 2020-12-21
+title: DeepLearning.AI TensorFlow Developer Course 2-1
+date: 2020-12-26
 categories: [Deep Learning]
 tags: [Deep Learning, Tensorflow, Keras, Coursera]
 ---

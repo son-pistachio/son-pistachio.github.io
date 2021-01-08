@@ -96,7 +96,9 @@ dense (Dense)                   (None, 512)           9470464
 _________________________________________________________________ 
 dense_1 (Dense)                 (None, 1)             513 
 ================================================================= 
-Total params: 9,494,561 Trainable params: 9,494,561 Non-trainable params: 0 
+Total params: 9,494,561 
+Trainable params: 9,494,561 
+Non-trainable params: 0 
 _________________________________________________________________
 {% endhighlight %}
 

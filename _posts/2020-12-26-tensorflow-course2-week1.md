@@ -160,6 +160,7 @@ ncols = 4
 pic_index = 0 # Index for iterating over images
 ```
 
+
 ```python
 # Set up matplotlib fig, and size it to fit 4x4 pics
 fig = plt.gcf()

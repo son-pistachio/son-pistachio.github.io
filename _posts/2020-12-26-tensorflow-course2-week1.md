@@ -125,7 +125,6 @@ history = model.fit(
 ---
 
 
-
 ```python
 base_dir = '/tmp/cats_and_dogs_filtered'
 

@@ -351,5 +351,6 @@ for layer_name, feature_map in zip(layer_names, successive_feature_maps):
 ```
 
 
+
 <br/>
 > https://www.coursera.org/professional-certificates/tensorflow-in-practice

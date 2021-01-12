@@ -113,6 +113,7 @@ model.compile(loss='binary_crossentropy',
 ```
 `optimizer=RMSprop(lr=0.001)` &nbsp;&nbsp; - &nbsp;learning rate 조정  
 
+모델학습
 ```python
 history = model.fit(
 		train_generator,
@@ -124,7 +125,6 @@ history = model.fit(
 ```
 
 ---
-
 
 ```python
 base_dir = '/tmp/cats_and_dogs_filtered'
@@ -237,7 +237,6 @@ validation_generator =  test_datagen.flow_from_directory(validation_dir,
                                                          batch_size=20,
                                                          class_mode  = 'binary',
                                                          target_size = (150, 150))
-
 ```
 
 ```python

@@ -108,9 +108,10 @@ _________________________________________________________________
 from tensorflow.keras.optimizers import RMSprop
 
 model.compile(loss='binary_crossentropy',
-              optimizer=RMSprop(lr=0.001), # learning rate 조정
+              optimizer=RMSprop(lr=0.001), 
               metrics = ['accuracy'])
 ```
+`optimizer=RMSprop(lr=0.001)` &nbsp;&nbsp; - &nbsp;learning rate 조정  
 
 ```python
 history = model.fit(

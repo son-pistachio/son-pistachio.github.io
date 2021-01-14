@@ -216,6 +216,7 @@ model.compile(optimizer=RMSprop(lr=0.001),
               metrics = ['accuracy'])
 ```
 
+
 ```python
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 

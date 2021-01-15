@@ -20,13 +20,13 @@ Course 4 : Sequences, Time Series and Prediction
 
 ## Image Augmentation
 
-Image Augmentation는 데이터 과적합을 방지하는 매우 강력한 도구.
-요약하면, 만약 여러분이 고양이를 발견하기 위해 모델을 학습시키고 있고, 모델은 고양이가 누워있을 때 데이터가 없다면, 그것을 인식하지 못할지도 모른다.  
-이에, Augmentation은 회전과 같은 변환을 사용하여 학습하는 동안 이미지를 즉시 수정한다. 
-예를 들어, '서 있는' 고양이를 90도 회전시켜 누운 고양이의 이미지처럼 만들 수 있다. 따라서 데이터 세트를 기존 데이터셋보다 확장할 수 있습니다.
+Image Augmentation : 데이터 과적합 방지 위한 매우 강력한 도구  
+요약하면, 만약 고양이를 발견하기 위해 모델을 학습시키고 있고, 모델은 고양이가 누워있을 때 데이터가 없다면, 그 것을 인식하지 못할 수 있다.  
+이에, Augmentation은 회전, 줌 같은 변환을 사용하여 학습하는 동안 이미지를 즉시 수정한다.  
+예를 들어, '서 있는' 고양이를 90도 회전시켜 누운 고양이의 이미지처럼 만들 수 있다.  
+그리고 데이터 세트를 기존 데이터셋보다 확장할 수 있다.
 
-[https://github.com/keras-team/keras-preprocessing](https://github.com/keras-team/keras-preprocessing)에서 Augmentation 관하여 자세히 확인할 수 있다.
-
+[https://github.com/keras-team/keras-preprocessing](https://github.com/keras-team/keras-preprocessing)에서 Augmentation 관하여 자세히 확인할 수 있다.  
 ```python
 train_datagen = ImageDataGenerator(
       rescale=1./255,

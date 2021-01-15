@@ -129,3 +129,6 @@ history = model.fit(
       validation_steps=50,  # 1000 images = batch_size * steps
       verbose=2)
 ```
+
+<br/>
+> https://www.coursera.org/professional-certificates/tensorflow-in-practice

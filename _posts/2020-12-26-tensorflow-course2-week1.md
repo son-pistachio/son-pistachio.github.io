@@ -278,7 +278,6 @@ for fn in uploaded.keys():
     print(fn + " is a cat")
 ```
 
-
 ```python
 import numpy as np
 import random

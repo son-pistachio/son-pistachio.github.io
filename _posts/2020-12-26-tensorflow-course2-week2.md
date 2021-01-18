@@ -130,5 +130,6 @@ history = model.fit(
       verbose=2)
 ```
 
+
 <br/>
 > https://www.coursera.org/professional-certificates/tensorflow-in-practice

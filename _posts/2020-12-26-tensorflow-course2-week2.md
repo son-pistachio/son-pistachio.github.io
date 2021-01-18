@@ -131,5 +131,6 @@ history = model.fit(
 ```
 
 
+
 <br/>
 > https://www.coursera.org/professional-certificates/tensorflow-in-practice

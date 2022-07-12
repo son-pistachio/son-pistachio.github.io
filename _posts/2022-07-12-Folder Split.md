@@ -11,12 +11,12 @@ tags: [Machine Learning, Deep Learning, Tensorflow, Pytorch]
 ---  
 
 
-# split-folders 설치  
+# split-folders 설치
 ```python
 pip install split-folders
 ```
 
-# 사용법  
+# 사용법
 
 ## 비율로 나누기  
 train/val/test 나누기  
@@ -35,8 +35,7 @@ import splitfolders
 splitfolders.ratio("input_folder명", output="output명", seed=12, ratio=(.8, .2))
 ```
 
-## 고정 값으로 나누기
-
+## 고정 값으로 나누기  
 ```python
 splitfolders.fixed("input_folder명", output="output명", seed=12, fixed=(100, 100)) 
 ```

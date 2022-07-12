@@ -10,7 +10,8 @@ tags: [Machine Learning, Deep Learning, Tensorflow, Pytorch]
 
 ---  
 
-## split-folders 설치
+
+## split-folders 설치  
 ```python
 pip install split-folders
 ```

@@ -23,13 +23,19 @@ ratio 파라미터에 원하는 (train, validation, test) 비율만 입력 ex) (
 ```python
 import splitfolders
 
-splitfolders.ratio("./cats_and_dogs", output="output", seed=12, ratio=(.6, .1, .1))
+splitfolders.ratio("input_folder명", output="output명", seed=12, ratio=(.6, .1, .1))
 ```
 
 train/val 나누기  
-# train, validation만 나누고 싶으면 두 개의 비율만 입력 ex) (0.8, 0.2)  
+train, validation만 나누고 싶으면 두 개의 비율만 입력 ex) (0.8, 0.2)  
 ```python  
 import splitfolders
 
-splitfolders.ratio("input_folder", output="output", seed=12, ratio=(.8, .2))
+splitfolders.ratio("input_folder명", output="output명", seed=12, ratio=(.8, .2))
+```
+
+# 고정 값으로 나누기
+
+```python
+splitfolders.fixed("input_folder명", output="output명", seed=12, fixed=(100, 100)) 
 ```

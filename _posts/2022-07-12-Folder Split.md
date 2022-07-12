@@ -50,13 +50,16 @@ output/
             imgc.jpg
             ...
 ```
-
-
+  
+  
+  
 # split-folders 설치
 ```python
 pip install split-folders
 ```
-
+  
+  
+  
 # 사용법
 
 ## 비율로 나누기  
@@ -83,5 +86,7 @@ splitfolders.ratio("input", output="output", seed=12, ratio=(.8, .2))
 ```python
 splitfolders.fixed("input", output="output", seed=12, fixed=(100, 100)) 
 ```
+  
+  
   
 > https://pypi.org/project/split-folders/

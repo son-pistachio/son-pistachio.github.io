@@ -24,7 +24,7 @@ ratio 파라미터에 원하는 (train, validation, test) 비율만 입력 ex) (
 ```python
 import splitfolders
 
-splitfolders.ratio("input_folder명", output="output명", seed=12, ratio=(.6, .1, .1))
+splitfolders.ratio("input_folder명", output="output명", seed=12, ratio=(.6, .2, .2))
 ```
 
 train/val 나누기  

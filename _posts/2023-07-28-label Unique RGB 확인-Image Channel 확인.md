@@ -7,7 +7,9 @@ tags: [Computer Vision, 컴퓨터비전, Deep Learning]
   
 
 ## label Unique RGB 확인  
-  
+
+
+#### code  
 ```python
 import cv2
 import numpy as np
@@ -57,8 +59,9 @@ RGB values in the mask image:
 ```  
 
 
-## Image Channel 확인
+## Image Channel 확인  
 
+#### code  
 ```python
 import cv2
 

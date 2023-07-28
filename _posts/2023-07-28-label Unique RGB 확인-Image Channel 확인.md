@@ -44,7 +44,7 @@ if rgb_values is not None:
     print(rgb_values)
 ```  
   
-결과 출력 예시  
+#### 결과 출력 예시  
 ```
 RGB values in the mask image:
 [[  0   0   0]
@@ -86,7 +86,7 @@ if channels is not None:
     print(f"The image has {channels} channel(s).")
 ```
   
-결과 출력
+#### 결과 출력 예시  
 ```
 The image has 3 channel(s).
 ```

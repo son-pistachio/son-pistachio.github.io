@@ -7,7 +7,7 @@ tags: [Docker, 도커]
   
 
 특정 폴더 루트 예시:  /home/tmp/ml  
-# 1. Dockerfile 생성  
+# Dockerfile 생성  
 먼저, 도커 이미지 생성을 원하는 특정 폴더(/home/tmp/ml)에 Dockerfile을 만들어 해당 폴더를 도커 이미지에 포함.  
 ```
 # Python 3.9을 사용하는 베이스 이미지 설정 (필요한 환경에 맞게 선택)
@@ -27,7 +27,9 @@ CMD ["python", "main.py"]
 ```
 위 필수 세가지만 수행 했음.
 
-# 2. 도커 이미지 빌드  
+
+
+# 도커 이미지 빌드  
 터미널에서 해당 폴더로 이동한 후, 다음 명령어로 도커 이미지 빌드.
 ```
 cd /home/tmp/ml
@@ -36,7 +38,8 @@ docker build -t my_image .
 my_image는 이미지의 이름
 
 
-# 3. 도커 이미지 저장 및 전송
+
+# 도커 이미지 저장 및 전송
 다음 명령어로 도커 이미지를 .tar 파일로 저장.
 ```
 docker save -o my_image.tar my_image
@@ -47,7 +50,8 @@ scp my_image.tar user@other_server_ip:/path/to/destination
 ```  
 
 
-# 4. 다른 서버에서 도커 이미지 로드
+
+# 다른 서버에서 도커 이미지 로드
 다른 서버로 접속한 후, 해당 서버에서 도커 이미지 로드.
 ```
 docker load -i /path/to/destination/my_image.tar
@@ -55,11 +59,13 @@ docker load -i /path/to/destination/my_image.tar
 도커 이미지가 해당 서버에 로드
 
 
-# 5. 이미지 로드가 완료되면 도커 컨테이너를 실행할 수 있다. 다음 명령어로 컨테이너 실행.
+
+# 이미지 로드가 완료되면 도커 컨테이너를 실행할 수 있다. 다음 명령어로 컨테이너 실행.
 ```
 docker run -d -p 8000:8000 my_image
 ```
 여기서 -p 8000:8000은 호스트와 컨테이너 간의 포트 매핑을 의미. 필요에 따라 포트 변경 가능.
+
 
 
 # 전체 프로세스 요약

@@ -63,14 +63,13 @@ docker load -i /path/to/destination/my_image.tar
 # 도커 컨테이너 실행
 이미지 로드가 완료되면 도커 컨테이너를 실행할 수 있다. 다음 명령어로 컨테이너 실행.
 ```
-docker run -d -p 8000:8000 my_image
+docker run -it --gpus all --name [컨테이너명] [이미지명] bash
 ```
-여기서 -p 8000:8000은 호스트와 컨테이너 간의 포트 매핑을 의미. 필요에 따라 포트 변경 가능.  
 
 아래 코드로 도커 접근
 
 ```
-docker run -i -t my_image /bin/bash
+docker attach image_id
 ```
 
 

@@ -69,7 +69,7 @@ docker run -it --gpus all --name [컨테이너명] [이미지명] bash
 아래 코드로 도커 접근
 
 ```
-docker attach image_id
+docker attach container_id[or container_name]
 ```
 
 
